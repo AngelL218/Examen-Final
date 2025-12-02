@@ -1,14 +1,6 @@
     var div = document.getElementById("perfil");
+    var isMasculino = true; // Variable booleana para controlar el estado
     
-    function cambiar() {
-            if(pan == "brioche"){
-        if(formulario.jalapeño.checked == true){
-            if(formulario.champiñones.checked == true){
-                    alert("Has ganado una promoción");
-                    total = total - 20;
-        }
-    }
- }
-    }
+
 
 
