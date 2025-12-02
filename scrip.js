@@ -10,16 +10,17 @@
             profesionElement.textContent = "Es una cantautora, música, productora discográfica y arreglista japonesa, pionera del género musical conocido como city pop.";
             alert("Se ha cambiado a femenino");
 
-            isMasculino  = false;
+            isMasculino = false;
         }
 
-        else if (isMasculino) {
+        else {
             nombreElement.textContent = "Tatsurō Yamashita";
             profesionElement.textContent = "Es un cantautor, músico, productor discográfico y arreglista japonés, pionero del género musical conocido como city pop.";
             alert("Se ha cambiado a masculino");
+
+            isMasculino = true
         }
 
-        isMasculino = !isMasculino;
         
 }
 
